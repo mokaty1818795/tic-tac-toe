@@ -1,0 +1,25 @@
+
+button{
+  height: 5rem;
+  width: 10rem;
+  background:#ffffff;
+}
+.board-square{
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+}
+.container p{
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+}
+.board{
+  height: 100vh;
+  background-color:#00171F;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
